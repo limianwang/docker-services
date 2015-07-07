@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER Limian Wang <lwang@e-xact.com>
+MAINTAINER Limian Wang <limian.wang@gmail.com>
 
 RUN apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv 7F0CEB10
 RUN echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | tee /etc/apt/sources.list.d/10gen.list
